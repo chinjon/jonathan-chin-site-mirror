@@ -1,5 +1,9 @@
+html {
+  font-family: monospace;
+}
+
 body {
-  background-color: aqua;
+  background-color: #ffffff;
 }
 
 .skip-link {
