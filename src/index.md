@@ -1,5 +1,5 @@
 ---
-title: 'Jonathan Chin'
+title: 'jonathan Chin'
 layout: 'layouts/home.html'
 ---
 
