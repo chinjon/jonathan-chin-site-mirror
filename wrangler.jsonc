@@ -1,0 +1,9 @@
+{
+  "name": "website-jonathanchin",
+  "compatibility_date": "2026-06-27",
+  "assets": {
+    "directory": "dist",
+    "not_found_handling": "404-page"
+  },
+  "routes": [{ "pattern": "jonathanchin.xyz", "custom_domain": true }]
+}
