@@ -10,6 +10,21 @@ body {
   min-height: 100vh;
 }
 
+ul li {
+	list-style: none;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.nav__list li {
+  margin: 0 5px;
+}
+
 main {
   flex: 1 0 auto;
 }
