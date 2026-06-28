@@ -6,7 +6,9 @@
     "11ty:build": "npx @11ty/eleventy",
     "11ty:watch": "npx @11ty/eleventy --watch --quiet --ignore-initial",
     "build": "11ty:build",
-    "start": "npm-run-all --parallel 11ty:watch wrangler:dev",
+    "util:rimraf": "npx rimraf dist",
+    "util:killport": "npx kill-port --port 8787",
+    "start": "npm-run-all util:rimraf util:killport 11ty:build  --parallel 11ty:watch wrangler:dev",
     "wrangler:dev": "npx wrangler dev --live-reload",
     "wrangler:deploy": "npx wrangler deploy"
   },
