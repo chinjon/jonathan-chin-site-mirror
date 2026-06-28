@@ -1,5 +1,5 @@
 {
-   "items": [
+  "items": [
     {
       "text": "home",
       "url": "/"
@@ -7,6 +7,10 @@
     {
       "text": "about",
       "url": "/about"
+    },
+    {
+      "text": "blog",
+      "url": "/blog"
     }
   ]
 }

@@ -8,9 +8,26 @@ export default function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/css/");
 
   eleventyConfig.addPlugin(eleventyImageTransformPlugin);
+
+  // Returns a collection of blog posts in reverse date order
+  eleventyConfig.addCollection('blog', (collection) => {
+    return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
+  });
 }
 
 export const config = {
   markdownTemplateEngine: 'njk',
   htmlTemplateEngine: 'njk',
 };
+
+/**
+ * Takes a collection and returns it back in display order
+ *
+ * @param {Array} collection The 11ty collection
+ * @returns {Array} the sorted collection
+ */
+function sortByDisplayOrder(collection) {
+  return collection.sort((a, b) =>
+    Number(a.data.displayOrder) > Number(b.data.displayOrder) ? 1 : -1,
+  );
+}
