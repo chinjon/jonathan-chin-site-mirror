@@ -11,7 +11,7 @@ body {
 }
 
 ul li {
-	list-style: none;
+	list-style: circle;
 }
 
 .nav__list {
@@ -23,6 +23,7 @@ ul li {
 
 .nav__list li {
   margin: 0 5px;
+  list-style: none;
 }
 
 main {
