@@ -6,6 +6,11 @@ body {
   background-color: #ffffff;
 }
 
+.post-container {
+  max-width: 600px;
+  width: 100%;
+}
+
 .skip-link {
   position: absolute;
   left: -10000px;
