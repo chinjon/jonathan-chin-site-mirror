@@ -14,3 +14,16 @@ body {
   height: 1px;
   overflow: hidden;
 }
+
+footer {
+  width: 100%;
+  position: sticky;
+  bottom: 0;
+}
+
+footer .site-footer__inner {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: auto;
+}
