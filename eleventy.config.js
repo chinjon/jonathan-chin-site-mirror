@@ -1,4 +1,13 @@
 import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
+import embedEverything from 'eleventy-plugin-embed-everything'
+
+const embedEverythingConfig = {
+  youtube: {
+    options: {
+      lite: true
+    }
+  }
+}
 
 export default function (eleventyConfig) {
   eleventyConfig.setInputDirectory('./src');
@@ -8,6 +17,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/css/");
 
   eleventyConfig.addPlugin(eleventyImageTransformPlugin);
+  eleventyConfig.addPlugin(embedEverything, embedEverythingConfig);
 
   // Returns a collection of blog posts in reverse date order
   eleventyConfig.addCollection('blog', (collection) => {
