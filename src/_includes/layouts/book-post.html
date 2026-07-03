@@ -1,0 +1,22 @@
+{% extends "layouts/base.html" %}
+
+{% set bookAuthor = [authorFirst, authorLast] %}
+
+{% block content %}
+	<article class="book-post-container">
+        {% include "partials/book-post-header.html" %}
+		<div class="[ page-content ] [ flow wrapper ] [ flow-space-700 gap-top-700 ]">
+			{{ content | safe }}
+		</div>
+	</article>
+
+    <article>
+        <p>book details:</p>
+        <ul>
+            <li>author: {{ bookAuthor | join(" ") }}</li>
+            <li>published: {{release}}</li>
+            <li>isbn: <a href="https://www.librarything.com/search.php?search={{isbn}}" target="_blank" rel="noopener" noreferrer>{{ isbn }}</a></li>
+        </ul>
+    </article>
+
+{% endblock %}

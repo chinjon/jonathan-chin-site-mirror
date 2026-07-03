@@ -30,7 +30,7 @@ main {
   flex: 1 0 auto;
 }
 
-.post-container {
+.post-container, .book-post-container {
   max-width: 600px;
   width: 100%;
 }

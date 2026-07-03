@@ -23,6 +23,11 @@ export default function (eleventyConfig) {
   eleventyConfig.addCollection('blog', (collection) => {
     return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
   });
+
+   // Returns a collection of blog posts in reverse date order
+  eleventyConfig.addCollection('books', (collection) => {
+    return [...collection.getFilteredByGlob('./src/books/*.md')].reverse();
+  });
 }
 
 export const config = {

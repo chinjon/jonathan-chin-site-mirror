@@ -1,0 +1,18 @@
+<div class="[ dot-shadow panel ] [ bg-secondary-glare ]" id="book-list">
+	<div class="[ wrapper ] [ flow flow-space-700 ]">
+		{% if bookListHeadline %}
+		<h2 class="[ headline ] [ measure-micro ]" data-highlight="primary">
+			{{ bookListHeadline }}
+		</h2>
+		{% endif %}
+		<div>
+			<ul class="[ book-list ] [ flow ]">
+				{% for item in bookListItems %}
+				<li class="[ book-list__item ] [ leading-tight measure-long ]">
+					<a href="{{ item.url }}" class="book-list__link">{{ item.data.title }} - {{ item.data.authorLast }}, {{{{ item.data.authorFirst }}}}</a> <span>[{{item.data.rating}} / 5]</span>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</div>
