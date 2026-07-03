@@ -11,7 +11,7 @@ body {
 }
 
 ul li {
-	list-style: circle;
+  list-style: circle;
 }
 
 .nav__list {
@@ -30,7 +30,8 @@ main {
   flex: 1 0 auto;
 }
 
-.post-container, .book-post-container {
+.post-container,
+.book-post-container {
   max-width: 600px;
   width: 100%;
 }
@@ -38,7 +39,7 @@ main {
 .blog-image {
   width: auto;
   height: auto;
-  max-width: 95vw;
+  max-width: 400px;
 }
 
 .skip-link {
@@ -70,4 +71,12 @@ footer .site-footer__inner {
   flex-direction: row;
   margin: auto;
   width: auto;
+}
+
+@media (max-width: 600px) {
+  .blog-image {
+    width: auto;
+    height: auto;
+    max-width: 95vw;
+  }
 }
