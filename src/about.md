@@ -6,3 +6,12 @@ permalink: '/about/index.html'
 ---
 
 contact at jonathankchin [at] gmail [dot] com 
+
+<img class="blog-image" src="/images/profile.jpg" alt="profile photo" width="450">
+
+---
+
+colophon
+
+this site was build using <a href="https://www.11ty.dev/" target="_blank" rel="noopener noreferrer">11ty</a>. this site was made without assistance from ai.
+
