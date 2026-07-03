@@ -3,7 +3,7 @@ title: 'white noise'
 authorFirst: 'don'
 authorLast: 'delillo'
 rating: '4.5'
-isbn: '9780140077025'
+isbn: '0140077022'
 release: '1985'
 ---
 

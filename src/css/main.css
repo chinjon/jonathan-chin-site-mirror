@@ -50,6 +50,12 @@ main {
   overflow: hidden;
 }
 
+.book-post-container .book-cover-img {
+  max-width: 150px;
+  height: auto;
+  width: auto;
+}
+
 footer {
   width: 100%;
   position: sticky;
