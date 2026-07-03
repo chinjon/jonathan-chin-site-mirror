@@ -6,6 +6,8 @@ summary: 'musings of a fan, after their favorite team finally reaches the top ag
 tags: ['the knicks']
 ---
 
+---
+
 <img class="blog-image" src="https://wwd.com/wp-content/uploads/2026/06/knicks-parade-2026-wwd-LM-004_c3ca2a.jpg?w=1000&h=563&crop=1)" alt="new york knicks fans sitting on a DSNY truck at the championship parade" width="500">
 
 i still don't know what to do with myself, two weeks after the fact. the knicks did it. the knicks were the last one standing. the knicks did the thing that many of us feared would never happen in our lifetime. they won. watching game five felt like a blur. 95% of the time i thought they were going back to the garden, although based on the past 2 months, i really shouldn't have. after the final 3 point hail mary from wemby and the rebound/victory hurl from og, i screamed.

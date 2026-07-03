@@ -4,6 +4,8 @@ date: '2025-03-17'
 tags: ['digital-minimalism', 'dumbphones']
 ---
 
+---
+
 at the start of year, i was looking into if it was viable for me to function with a "dumbphone" instead of my iphone, eventually settling on an unspectacular looking flip phone.
 
 in my research, it occurred to me that there used to be so many creative looking phones that were released regularly.
