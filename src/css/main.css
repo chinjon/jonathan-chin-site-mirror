@@ -35,6 +35,12 @@ main {
   width: 100%;
 }
 
+.blog-image {
+  width: auto;
+  height: auto;
+  max-width: 95vw;
+}
+
 .skip-link {
   position: absolute;
   left: -10000px;
