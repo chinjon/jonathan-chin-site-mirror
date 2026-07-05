@@ -9,4 +9,7 @@ paginationPrevText: 'Newer posts'
 paginationNextText: 'Older posts'
 paginationAnchor: '#post-list'
 ---
+
+<img class="blog-image" src="https://file.garden/akFLbgUm9G3LrWhE/HERO_1395_Bowie.jpg" alt="david bowie staring intensely at a desktop computer">
+
 the blog
