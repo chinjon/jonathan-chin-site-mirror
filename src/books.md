@@ -1,12 +1,16 @@
 ---
-title: 'books'
-layout: 'layouts/books.html'
+title: 'reading'
+layout: 'layouts/reading.html'
 pagination:
   data: collections.books
   size: 5
-permalink: 'books{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber }}{% endif %}/index.html'
+permalink: 'reading{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber }}{% endif %}/index.html'
 paginationPrevText: 'Newer posts'
 paginationNextText: 'Older posts'
-paginationAnchor: '#books-list'
+paginationAnchor: '#reading-list'
 ---
+
+<img class="blog-image"  src="https://file.garden/akFLbgUm9G3LrWhE/columbo_art_book.jpg" alt="detective columbo looking at a book sideways"/>
+
 books i have read
+

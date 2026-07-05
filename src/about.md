@@ -7,7 +7,7 @@ permalink: '/about/index.html'
 
 contact at jonathankchin [at] gmail [dot] com 
 
-<img class="blog-image" src="/images/profile.jpg" alt="profile photo" width="450">
+<img class="blog-image" src="/images/profile.jpg" alt="profile photo">
 
 ---
 
