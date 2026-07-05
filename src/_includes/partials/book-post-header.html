@@ -5,6 +5,9 @@
 		</h1>
         <div>
             <p>rating: {{ rating }}</p>
+			{% if read %}
+			<p>read: {{ read }}</p>
+			{% endif %}
         </div>
 		{% if pageHeaderSummary %}
 		<div class="[ page-header__summary ] [ measure-long ]">

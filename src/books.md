@@ -10,7 +10,7 @@ paginationNextText: 'Older posts'
 paginationAnchor: '#reading-list'
 ---
 
-<img class="blog-image"  src="https://file.garden/akFLbgUm9G3LrWhE/columbo_art_book.jpg" alt="detective columbo looking at a book sideways"/>
+<img class="blog-image"  src="https://file.garden/akFLbgUm9G3LrWhE/Honor-Columbo-3.jpg" alt="detective columbo looking at a book sideways"/>
 
 books i have read
 
