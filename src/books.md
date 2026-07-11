@@ -3,7 +3,7 @@ title: 'reading'
 layout: 'layouts/reading.html'
 pagination:
   data: collections.books
-  size: 5
+  size: 50
 permalink: 'reading{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber }}{% endif %}/index.html'
 paginationPrevText: 'Newer posts'
 paginationNextText: 'Older posts'
