@@ -1,6 +1,6 @@
 ---
 title: 'the ax'
-authorFirst: 'donald'
+authorFirst: 'donald e.'
 authorLast: 'westlake'
 rating: '3.5'
 isbn: '0446606081'
