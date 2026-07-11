@@ -13,4 +13,4 @@ pages: '352'
 
 >"_i want to immerse myself in american magic and dread._"
 
-my first delillo. initially i was going to read 'libra', but after digging deeper into his bibliography, delillo seemed to be an author i'd enjoy, and i went with his most recommended novel first. i was immediately engrossed with delillo's layered prose, he's funny and prescient, touching on themes relating to technology, human-made disasters, and death.
+my first delillo. initially i was going to read 'libra', but after digging deeper into his bibliography, delillo seemed to be an author i'd enjoy, and i went with his most recommended novel first. i was immediately engrossed with delillo's layered prose, he's funny and prescient, touching on themes relating to consumerism, technology, human-made disasters, and death.
