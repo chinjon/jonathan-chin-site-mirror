@@ -6,6 +6,7 @@ rating: '4'
 isbn: '0679723056'
 published: '1989'
 read: '2026-05-11'
+pages: '176'
 ---
 
 ---
