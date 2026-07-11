@@ -4,7 +4,7 @@ authorFirst: 'don'
 authorLast: 'delillo'
 rating: '4.5'
 isbn: '0140077022'
-release: '1985'
+published: '1985'
 ---
 
 ---

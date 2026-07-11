@@ -4,7 +4,7 @@ authorFirst: 'ling'
 authorLast: 'ma'
 rating: '3.5'
 isbn: '1250214998'
-release: '2018'
+published: '2018'
 read: '2026-07-03'
 ---
 
