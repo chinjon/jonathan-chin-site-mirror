@@ -26,7 +26,7 @@ export default function (eleventyConfig) {
 
    // Returns a collection of blog posts in reverse date order
   eleventyConfig.addCollection('books', (collection) => {
-    return [...collection.getFilteredByGlob('./src/books/*.md')].reverse();
+    return [...collection.getFilteredByGlob('./src/books/*.md')].sort((a, b) => new Date(b.data.read) - new Date(a.data.read))
   });
 }
 
