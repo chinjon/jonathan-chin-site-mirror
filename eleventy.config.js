@@ -1,5 +1,6 @@
 import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
 import embedEverything from 'eleventy-plugin-embed-everything'
+import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 
 const embedEverythingConfig = {
   youtube: {
@@ -24,9 +25,28 @@ export default function (eleventyConfig) {
     return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
   });
 
-   // Returns a collection of blog posts in reverse date order
+  // Returns a collection of blog posts in reverse date order
   eleventyConfig.addCollection('books', (collection) => {
     return [...collection.getFilteredByGlob('./src/books/*.md')].sort((a, b) => new Date(b.data.read) - new Date(a.data.read))
+  });
+
+  eleventyConfig.addPlugin(feedPlugin, {
+    type: "atom", // or "rss", "json"
+    outputPath: "/feed.json",
+    collection: {
+      name: "blog",
+      limit: 10,     // 0 means no limit
+    },
+    metadata: {
+      language: "en",
+      title: "jonathan chin",
+      subtitle: "the blog of jonathan chin.",
+      base: "https://jonathanchin.xyz",
+      author: {
+        name: "jonathan chin",
+        email: "", // Optional
+      }
+    }
   });
 }
 
