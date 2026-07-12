@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "production": "NODE_ENV=production npm-run-all util:rimraf 11ty:build",
     "11ty:build": "npx @11ty/eleventy",
     "11ty:watch": "npx @11ty/eleventy --watch --quiet --ignore-initial",
-    "build": "11ty:build",
     "util:rimraf": "npx rimraf dist",
     "util:killport": "npx kill-port --port 8787",
-    "start": "npm-run-all util:rimraf util:killport 11ty:build  --parallel 11ty:watch wrangler:dev",
+    "start": "npm-run-all util:rimraf util:killport 11ty:build --parallel 11ty:watch wrangler:dev",
     "wrangler:dev": "npx wrangler dev --live-reload",
-    "wrangler:deploy": "npx wrangler deploy"
+    "wrangler:deploy": "NODE_ENV=production npx wrangler deploy"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +23,7 @@
     "eleventy-plugin-embed-everything": "^1.21.2"
   },
   "devDependencies": {
+    "html-minifier-next": "^7.2.0",
     "npm-run-all": "^4.1.5",
     "wrangler": "^4.105.0"
   }

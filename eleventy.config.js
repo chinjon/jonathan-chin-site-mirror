@@ -1,6 +1,7 @@
 import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
 import embedEverything from 'eleventy-plugin-embed-everything'
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
+import htmlmin from 'html-minifier-next';
 
 const embedEverythingConfig = {
   youtube: {
@@ -11,6 +12,21 @@ const embedEverythingConfig = {
 }
 
 export default function (eleventyConfig) {
+  const isProduction = process.env.NODE_ENV === 'production';
+
+  if (isProduction) {
+    eleventyConfig.addTransform('htmlmin', function (content) {
+      if ((this.page.outputPath || '').endsWith('.html')) {
+        return htmlmin.minify(content, {
+          useShortDoctype: true,
+          removeComments: true,
+          collapseWhitespace: true,
+        });
+      }
+      return content;
+    });
+  }
+
   eleventyConfig.setInputDirectory('./src');
   eleventyConfig.setOutputDirectory('./dist');
 
