@@ -32,7 +32,7 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addPlugin(feedPlugin, {
     type: "atom", // or "rss", "json"
-    outputPath: "/feed.json",
+    outputPath: "/rss.xml",
     collection: {
       name: "blog",
       limit: 10,     // 0 means no limit
