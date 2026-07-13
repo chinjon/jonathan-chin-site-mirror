@@ -30,6 +30,10 @@ main {
   flex: 1 0 auto;
 }
 
+#main-content {
+  padding: 10px;
+}
+
 .post-container,
 .book-post-container {
   max-width: 600px;
@@ -74,6 +78,10 @@ footer .site-footer__inner {
 }
 
 @media (max-width: 600px) {
+  #main-content {
+    padding: 5px;
+  }
+
   .blog-image {
     width: auto;
     height: auto;
