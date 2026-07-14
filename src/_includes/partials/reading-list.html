@@ -9,7 +9,11 @@
 			<ul class="book-list">
 				{% for item in bookListItems %}
 				<li class="[ book-list__item ] [ leading-tight measure-long ]">
-					<span>{{item.data.read}}</span> <a href="{{ item.url }}" class="book-list__link">{{ item.data.title }} - {{ item.data.authorLast }}, {{ item.data.authorFirst }}</a> <span class="reading-rating">[{{item.data.rating}} / 5]</span>
+					<span>{{item.data.read}}</span> <a href="{{ item.url }}" class="book-list__link">{{ item.data.title
+						}} - {{ item.data.authorLast }}, {{ item.data.authorFirst }}</a> 
+						{% if (item.data.rating | float) >= 4 %}
+							<span role="img" aria-label="Star" title="Star">⭐️</span>
+						{% endif %}
 				</li>
 				{% endfor %}
 			</ul>
