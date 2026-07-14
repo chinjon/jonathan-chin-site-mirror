@@ -91,6 +91,10 @@ footer .site-footer__inner {
     margin-bottom: 5px;
   }
 
+  .book-list .reading-rating {
+    display: none;
+  }
+
   .blog-image {
     width: auto;
     height: auto;
