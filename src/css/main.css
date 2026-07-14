@@ -82,6 +82,15 @@ footer .site-footer__inner {
     padding: 5px;
   }
 
+  .book-list {
+    padding: 5px 2px;
+    font-size: 11px;
+  }
+
+  .book-list li {
+    margin-bottom: 5px;
+  }
+
   .blog-image {
     width: auto;
     height: auto;

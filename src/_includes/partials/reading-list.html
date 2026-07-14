@@ -6,7 +6,7 @@
 		</h2>
 		{% endif %}
 		<div>
-			<ul class="[ book-list ] [ flow ]">
+			<ul class="book-list">
 				{% for item in bookListItems %}
 				<li class="[ book-list__item ] [ leading-tight measure-long ]">
 					<span>{{item.data.read}}</span> <a href="{{ item.url }}" class="book-list__link">{{ item.data.title }} - {{ item.data.authorLast }}, {{ item.data.authorFirst }}</a> <span>[{{item.data.rating}} / 5]</span>
