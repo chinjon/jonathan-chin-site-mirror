@@ -83,12 +83,20 @@ footer .site-footer__inner {
   }
 
   .book-list {
-    padding: 5px 2px;
-    font-size: 11px;
+    padding: 5px 3px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
   }
 
   .book-list li {
     margin-bottom: 5px;
+  }
+
+  .book-list-item {
+    display: flex;
+    flex-direction: column;
   }
 
   .book-list .reading-rating {
