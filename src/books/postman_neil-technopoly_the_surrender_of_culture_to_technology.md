@@ -2,7 +2,7 @@
 title: 'technopoly: the surrender of culture to technology'
 authorFirst: 'neil'
 authorLast: 'postman'
-rating: '3'
+rating: '3.5'
 isbn: '0679745408'
 published: '1993'
 pages: '240'
