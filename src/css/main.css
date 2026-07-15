@@ -73,6 +73,7 @@ footer {
 footer .site-footer__inner {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   margin: auto;
   width: auto;
 }
