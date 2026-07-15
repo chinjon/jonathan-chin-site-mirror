@@ -2,7 +2,8 @@
    "items": [
     {
       "text": "github",
-      "url": "https://github.com/chinjon"
+      "url": "https://github.com/chinjon",
+      "rel": true
     },
     {
       "text": "letterboxd",
