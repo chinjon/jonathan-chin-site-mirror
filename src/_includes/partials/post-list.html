@@ -6,13 +6,13 @@
 		</h2>
 		{% endif %}
 		<div>
-			<ol class="[ post-list ] [ flow ]">
+			<ul class="[ post-list ] [ flow ]">
 				{% for item in postListItems %}
 				<li class="[ post-list__item ] [ leading-tight measure-long ]">
-					<a href="{{ item.url }}" class="post-list__link">{{ item.data.title }}</a>
+					<span>{{item.data.date}}</span> <a href="{{ item.url }}" class="post-list__link">{{ item.data.title }}</a>
 				</li>
 				{% endfor %}
-			</ol>
+			</ul>
 		</div>
 	</div>
 </div>
