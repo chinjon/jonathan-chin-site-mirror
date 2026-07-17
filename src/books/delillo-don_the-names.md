@@ -2,7 +2,7 @@
 title: 'the names'
 authorFirst: 'don'
 authorLast: 'delillo'
-rating: '4'
+rating: '4.0'
 isbn: '0679722955'
 published: '1989'
 pages: '339'

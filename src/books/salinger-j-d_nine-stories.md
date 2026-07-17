@@ -2,7 +2,7 @@
 title: 'nine stories'
 authorFirst: 'j.d.'
 authorLast: 'salinger'
-rating: '4'
+rating: '4.0'
 isbn: '0316767727'
 published: '1991'
 pages: '320'

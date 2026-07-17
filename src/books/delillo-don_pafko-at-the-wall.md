@@ -2,7 +2,7 @@
 title: 'pafko at the wall'
 authorFirst: 'don'
 authorLast: 'delillo'
-rating: '4'
+rating: '4.0'
 isbn: '0743230000'
 published: '2001'
 pages: '96'
