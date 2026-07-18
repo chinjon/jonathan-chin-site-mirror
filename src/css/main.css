@@ -17,7 +17,7 @@ ul li {
 .nav__list {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 8px;
   align-items: center;
 }
 
