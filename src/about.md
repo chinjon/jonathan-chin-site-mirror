@@ -11,9 +11,9 @@ contact at jonathankchin [at] gmail [dot] com
 
 ---
 
-colophon
+### colophon
 
-this site was made without assistance from ai.
+this site was ***NOT MADE with*** ai or generative code.
 
 this site was built using:
 
