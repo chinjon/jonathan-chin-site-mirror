@@ -19,10 +19,11 @@ ul li {
   flex-direction: row;
   gap: 8px;
   align-items: center;
+  padding-left: 15px;
 }
 
 .nav__list li {
-  margin: 0 5px;
+  margin: 0 2px;
   list-style: none;
 }
 
