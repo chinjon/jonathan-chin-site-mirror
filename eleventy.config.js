@@ -41,9 +41,12 @@ export default function (eleventyConfig) {
     return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
   });
 
-  // Returns a collection of blog posts in reverse date order
   eleventyConfig.addCollection('books', (collection) => {
     return [...collection.getFilteredByGlob('./src/books/*.md')].sort((a, b) => new Date(b.data.read) - new Date(a.data.read))
+  });
+
+  eleventyConfig.addCollection('projects', (collection) => {
+    return [...collection.getFilteredByGlob('./src/projects/*.md')].reverse();
   });
 
   eleventyConfig.addPlugin(feedPlugin, {

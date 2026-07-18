@@ -1,0 +1,13 @@
+{% extends "layouts/base.html" %}
+
+{% set pageHeaderTitle = title %}
+{% set pageHeaderSummary = content %}
+{% set postListItems = pagination.items %}
+
+{% block content %}
+{% include "partials/page-header.html" %}
+<article>
+	{% include "partials/project-list.html" %}
+</article>
+
+{% endblock %}
