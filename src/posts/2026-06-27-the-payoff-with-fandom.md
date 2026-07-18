@@ -3,6 +3,7 @@ title: 'the payoff with fandom'
 date: '2026-06-27'
 layout: 'layouts/post.html'
 summary: 'musings of a fan, after their favorite team finally reaches the top again'
+published: true
 tags: ['the knicks']
 ---
 

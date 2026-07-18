@@ -3,6 +3,7 @@ title: 'five favorite photographs'
 date: '2025-04-29'
 layout: 'layouts/post.html'
 summary: 'five photographs i think about a lot'
+published: true
 tags: ['photography']
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: 'we used to be a society that designed cool-looking technology'
 date: '2025-03-17'
+published: true
 tags: ['digital-minimalism', 'dumbphones']
 ---
 
