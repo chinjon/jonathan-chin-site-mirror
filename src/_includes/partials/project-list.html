@@ -7,10 +7,9 @@
         {% endif %}
         <div>
             {% for item in postListItems %}
-            <div>
-                <a href="{{ item.url }}">{{ item.data.title
-                    }}</a>
-            </div>
+            <ul>
+                <li><a href="{{ item.url }}">{{ item.data.title}}</a></li>
+            </ul>
             {% endfor %}
         </div>
     </div>
