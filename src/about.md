@@ -13,7 +13,8 @@ contact at jonathankchin [at] gmail [dot] com
 
 ### colophon
 
-this site was ***NOT MADE with*** ai or generative code.
+this site was ***NOT MADE with*** ai or generative code.  
+all words are my own, not generative.
 
 this site was built using:
 
