@@ -1,13 +1,31 @@
 {
     "items": [
         {
+            "title": "is ai profitable yet",
+            "url": "https://isaiprofitable.com/",
+            "note": "tracking claims of when ai will be profitable, highly doubt it ever does with the current claims from companies and ceos",
+            "date": "2026-07-18"
+        },
+        {
+            "title": "[the atlantic] 'the age of reading is over' (archived)",
+            "url": "https://archive.ph/hJRqc",
+            "note": "article getting passed around lot. it goes into the recent decline of reading as a past time and the larger implications it may mean if this trend continues",
+            "date": "2026-07-18"
+        },
+        {
+            "title": "11ty tutorial",
+            "url": "https://learneleventy.dev/",
+            "note": "a fork of an 11ty tutorial. i highly recommend if you're considering 11ty for your personal website",
+            "date": "2026-07-18"
+        },
+        {
             "title": "uncovered.ink",
             "url": "https://uncovered.ink/",
             "note": "a cool project that lets you read sample passages from books, without revealing their title or author, leaving you to judge a book with minimal information.",
             "date": "2026-07-17"
         },
         {
-            "title": "resource list for personal websites",
+            "title": "resource list for building personal websites",
             "url": "https://discourse.32bit.cafe/t/resources-list-for-the-personal-web/49",
             "note": "good resource with a bounty of tools and websites to make your own personal site.",
             "date": "2026-07-17"

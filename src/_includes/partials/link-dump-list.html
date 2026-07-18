@@ -1,0 +1,19 @@
+<div class="[ dot-shadow panel ] [ bg-secondary-glare ]" id="link-list">
+    <div class="[ wrapper ] [ flow flow-space-700 ]">
+        {% if postListHeadline %}
+        <h2 class="[ headline ] [ measure-micro ]" data-highlight="primary">
+            {{ postListHeadline }}
+        </h2>
+        {% endif %}
+        <div>
+            <ul>
+                {% for item in linkDump.items %}
+                <li class="link-dump-item">
+                    <span>[{{item.date}}]</span> <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{
+                        item.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
