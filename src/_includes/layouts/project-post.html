@@ -1,0 +1,17 @@
+{% extends "layouts/base.html" %}
+
+{% set pageHeaderTitle = title %}
+
+{% block content %}
+	<article class="post-container h-entry">
+    {% include "partials/page-header.html" %}
+    <div class="project-post-info">
+      <a href="{{projectUrl}}" target="_blank" rel="noopener noreferrer">project link</a>
+      <img class="blog-image" src="https://file.garden/akFLbgUm9G3LrWhE/nyc-permitted-event-page.png" alt="{{imgUrlAlt}}"/>
+    </div>
+		<div class="e-content">
+			{{ content | safe }}
+		</div>
+	</article>
+
+{% endblock %}
