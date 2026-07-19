@@ -9,3 +9,11 @@ imgUrlAlt: "screenshot of nyc permitted events"
 ---
 
 a project that leverages publicly available data from the city of new york, via nycdata.
+
+this project was inspired by local photographers wanting to fill out the required number of events to apply for a nyc media pass.
+
+stack:
+
+- astro
+- netlify
+- nyc data
