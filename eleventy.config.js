@@ -2,6 +2,7 @@ import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
 import embedEverything from 'eleventy-plugin-embed-everything'
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import htmlmin from 'html-minifier-next';
+import markdownitLinkAttributes from 'markdown-it-link-attributes';
 
 const embedEverythingConfig = {
   youtube: {
@@ -67,6 +68,17 @@ export default function (eleventyConfig) {
       }
     }
   });
+
+  const externalLinksOptions = {
+    matcher(href) {
+      return href.match(/^https?:\/\//);
+    },
+    attrs: {
+      target: "_blank",
+      rel: "noopener noreferrer",
+    },
+  };
+  eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownitLinkAttributes, externalLinksOptions));
 }
 
 export const config = {
