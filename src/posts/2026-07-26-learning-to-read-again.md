@@ -14,7 +14,7 @@ a year ago i landed on a book review video from the new york times. i wasn’t p
 
 the [reading crisis that has been discussed ad nauseam](https://archive.ph/https://www.theatlantic.com/magazine/2026/08/reading-crisis-postliterate-age/687618/) for more than a decade, with both anecdotal and studies narrating the decline. i wasn’t the most voracious reader, but i could finish a book, eventually. last year i started reading again, but in spurts, mostly using audiobooks. this year i treated my reading problem with a bit more urgency to great success.
 
-here's what i did to get back into reading, this may or may not work for you:
+a lot of the following stuff are obvious, but helped me:
 
 ### watch book recommendation videos
 
@@ -55,6 +55,6 @@ reading is very much like exercise, you need to build up strength, form and stam
 
 ## my progress
 
-<img class="blog-image" src="https://file.garden/akFLbgUm9G3LrWhE/book-tracker" alt="screen shot of reading stats from book tracker app" />
+<img class="blog-image" src="https://file.garden/akFLbgUm9G3LrWhE/book-tracker" alt="screen shot of reading stats from book tracker app" style="max-width: 200px;" />
 
 i initially started this drive to read in april of 2026, skeptical that i could complete any book. setting a goal of 10 books for 2026, not being sure of my consistency and devotion to reading. however, i'm happy to say i've exceed that goal, as of july 2026, with 16 books completed on the year. i have also spent nearly $500 on books, and $70 on my little e-reader. one side effect is that now i have too many books, but also motivates me to keep reading.
