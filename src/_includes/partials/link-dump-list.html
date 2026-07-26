@@ -6,9 +6,9 @@
         </h2>
         {% endif %}
         <div>
-            <ul>
+            <ul class="list-container">
                 {% for item in linkDump.items %}
-                <li class="link-dump-item" title="{{item.note}}">
+                <li class="link-dump-item list-container-item" title="{{item.note}}">
                     <span>[{{item.date}}]</span> <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{
                         item.title }}</a>
                 </li>

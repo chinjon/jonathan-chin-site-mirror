@@ -90,7 +90,7 @@ footer .site-footer__inner {
     padding: 5px;
   }
 
-  .book-list {
+  .book-list, .list-container {
     padding: 5px 3px;
     font-size: 12px;
     display: flex;
@@ -98,11 +98,11 @@ footer .site-footer__inner {
     gap: 6px;
   }
 
-  .book-list li {
+  .book-list li, .list-container li {
     margin-bottom: 5px;
   }
 
-  .book-list-item {
+  .book-list-item, .list-container-item {
     display: flex;
     flex-direction: column;
   }
