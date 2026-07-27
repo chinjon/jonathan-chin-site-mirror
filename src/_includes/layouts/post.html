@@ -4,8 +4,8 @@
 
 {% block content %}
 	<article class="post-container h-entry">
-        {% include "partials/page-header.html" %}
-
+			{% include "partials/page-header.html" %}
+			<p>published: {{date}}</p>
 		<div class="e-content">
 			{{ content | safe }}
 		</div>
