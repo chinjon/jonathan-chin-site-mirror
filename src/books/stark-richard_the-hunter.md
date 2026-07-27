@@ -12,7 +12,7 @@ pages: '192'
 
 ---
 
-i never really thought i'd be into hard-boiled crime novels, but this was a very fun read. this reads like a screenplay, very lean and straightforward, which lends itself to becoming an actual movie, "point blank" with lee marvin. richard stark is the pen name of donald e. westlake, who was insanely prolific. barring the misogyny and racism, i recommend this if you need something quick to read or trying to convince someone to start reading again to read.
+i never really thought i'd be into hard-boiled crime novels, but this was a very fun read. this reads like a screenplay, very lean and straightforward, which lends itself to becoming an actual movie, "point blank" with lee marvin. richard stark is the pen name of donald e. westlake, who was insanely prolific. there is misogyny and racism in this book, whether it is a product of the times or maybe just a reflection of the world the character lives in.
 
 https://www.youtube.com/watch?v=ez8OfdMSSw8 
 
