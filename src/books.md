@@ -1,10 +1,10 @@
 ---
-title: 'reading'
-layout: 'layouts/reading.html'
+title: 'read'
+layout: 'layouts/read.html'
 pagination:
   data: collections.books
   size: 50
-permalink: 'reading{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber }}{% endif %}/index.html'
+permalink: 'read{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber }}{% endif %}/index.html'
 paginationPrevText: 'Newer posts'
 paginationNextText: 'Older posts'
 paginationAnchor: '#reading-list'
