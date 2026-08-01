@@ -37,6 +37,8 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/css/");
   eleventyConfig.addWatchTarget("./src/css/");
 
+  eleventyConfig.addPassthroughCopy({ "./src/img/favicon/": "/" });
+
   eleventyConfig.addPlugin(eleventyImageTransformPlugin);
   eleventyConfig.addPlugin(embedEverything, embedEverythingConfig);
 
