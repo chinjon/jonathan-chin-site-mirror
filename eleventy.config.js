@@ -3,6 +3,9 @@ import embedEverything from 'eleventy-plugin-embed-everything'
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import htmlmin from 'html-minifier-next';
 import markdownitLinkAttributes from 'markdown-it-link-attributes';
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const embedEverythingConfig = {
   youtube: {
