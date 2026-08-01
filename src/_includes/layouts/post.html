@@ -5,7 +5,8 @@
 {% block content %}
 	<article class="post-container h-entry">
 			{% include "partials/page-header.html" %}
-			<p>published: {{date}}</p>
+					<a class="hidden-item u-url">{{site.url}}{{page.url}}</a>
+			<p class="dt-published">published: {{date}}</p>
 		<div class="e-content">
 			{{ content | safe }}
 		</div>

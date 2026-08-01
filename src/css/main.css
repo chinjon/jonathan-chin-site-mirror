@@ -27,6 +27,12 @@ ul li {
   list-style: none;
 }
 
+.hidden-item {
+  visibility: hidden;
+  max-height: 0;
+  height: 0;
+}
+
 main {
   flex: 1 0 auto;
 }
