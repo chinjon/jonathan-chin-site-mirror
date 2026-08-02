@@ -53,6 +53,17 @@ main {
   max-width: 400px;
 }
 
+.blog-header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.blog-header a.hidden-item {
+  max-width: 20%;
+  text-overflow: ellipsis;
+}
+
 .skip-link {
   position: absolute;
   left: -10000px;
@@ -101,7 +112,8 @@ footer .site-footer__inner {
     padding: 5px;
   }
 
-  .book-list, .list-container {
+  .book-list,
+  .list-container {
     padding: 5px 3px;
     font-size: 12px;
     display: flex;
@@ -109,11 +121,13 @@ footer .site-footer__inner {
     gap: 6px;
   }
 
-  .book-list li, .list-container li {
+  .book-list li,
+  .list-container li {
     margin-bottom: 5px;
   }
 
-  .book-list-item, .list-container-item {
+  .book-list-item,
+  .list-container-item {
     display: flex;
     flex-direction: column;
   }
@@ -128,13 +142,16 @@ footer .site-footer__inner {
     max-width: 95vw;
   }
 
+  .blog-header {
+    flex-direction: column;
+  }
 
-footer .site-footer__inner {
-  display: flex;
-  text-align: center;
-  padding: 0 2px;
-  font-size: 9px;
-  margin: auto;
-  width: auto;
-}
+  footer .site-footer__inner {
+    display: flex;
+    text-align: center;
+    padding: 0 2px;
+    font-size: 9px;
+    margin: auto;
+    width: auto;
+  }
 }

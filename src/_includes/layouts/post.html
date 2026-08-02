@@ -3,13 +3,15 @@
 {% set pageHeaderTitle = title %}
 
 {% block content %}
-	<article class="post-container h-entry">
-			{% include "partials/page-header.html" %}
-					<a class="hidden-item u-url">{{site.url}}{{page.url}}</a>
-			<p class="dt-published">published: {{date}}</p>
-		<div class="e-content">
-			{{ content | safe }}
-		</div>
-	</article>
+<article class="post-container h-entry">
+	{% include "partials/page-header.html" %}
+	<div class="blog-header">
+		<p class="dt-published">published: {{date}}</p>
+		<a class="hidden-item u-url">{{site.url}}{{page.url}}</a>
+	</div>
+	<div class="e-content">
+		{{ content | safe }}
+	</div>
+</article>
 
 {% endblock %}
