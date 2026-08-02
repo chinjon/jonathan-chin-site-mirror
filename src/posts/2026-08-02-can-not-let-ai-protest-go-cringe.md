@@ -2,7 +2,7 @@
 title: 'we can not allow the anti-ai movement to go cringe'
 date: '2026-08-02'
 layout: 'layouts/post.html'
-summary: 'as time goes on, we can not sit by the way of movements like occupy wall street'
+summary: 'as time goes on, we can not let the anti-ai movement slip away'
 published: true
 tags: ['ai']
 ---
