@@ -1,6 +1,24 @@
 {
     "items": [
         {
+            "title": "jam.coop",
+            "url": "https://jam.coop/",
+            "note": "a co-op owned music platform",
+            "date": "2026-08-02"
+        },
+        {
+            "title": "mirlo",
+            "url": "https://mirlo.space/",
+            "note": "a co-op owned music platform",
+            "date": "2026-08-02"
+        },
+        {
+            "title": "subvert.fm",
+            "url": "https://www.subvert.fm/",
+            "note": "a co-op owned music platform",
+            "date": "2026-08-02"
+        },
+        {
             "title": "[the onion] translator of original ‘minions’ epic poem slams ‘sexless, bloodless’ film adaptation",
             "url": "https://theonion.com/translator-of-original-minions-epic-poem-slams-sexless-bloodless-film-adaptation/",
             "date": "2026-08-02"
