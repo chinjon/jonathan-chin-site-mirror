@@ -16,7 +16,8 @@ contact at jonathankchin [at] gmail [dot] com
 this site was ***NOT MADE with*** ai or generative code.  
 all words are my own, not generative.
 
-this site was built using:
+this site was built using (<a href="https://codeberg.org/jonathan_chin/jonathan-chin-site" target="_blank"
+        rel="noreferrer noopener">source</a>):
 
 - <a href="https://www.11ty.dev/" target="_blank" rel="noopener noreferrer">11ty</a>
 - <a href="https://vscodium.com/" target="_blank" rel="noopener noreferrer">vscodium</a>
