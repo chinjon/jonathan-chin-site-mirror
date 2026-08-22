@@ -6,6 +6,7 @@ rating: '4.0'
 isbn: '0140152741'
 published: '1991'
 read: '2026-08-19'
+start: '2026-08-14'
 pages: '241'
 ---
 
