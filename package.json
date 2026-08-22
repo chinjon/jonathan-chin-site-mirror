@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "production": "NODE_ENV=production npm-run-all util:rimraf 11ty:build",
+    "prod": "NODE_ENV=production npm-run-all util:rimraf 11ty:build",
     "11ty:build": "npx @11ty/eleventy",
     "11ty:watch": "npx @11ty/eleventy --watch --quiet --ignore-initial",
     "util:rimraf": "npx rimraf dist",
