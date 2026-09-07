@@ -1,0 +1,12 @@
+{
+  "navLinks": [
+    {
+      "title": "home",
+      "url": "/"
+    },
+    {
+      "title": "about",
+      "url": "/about"
+    }
+  ]
+}
