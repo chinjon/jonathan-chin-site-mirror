@@ -2,7 +2,7 @@
 title: 'the hunter'
 authorFirst: 'stark'
 authorLast: 'richard'
-rating: '3.5'
+rating: '3.0'
 isbn: '0226770990'
 published: '1962'
 start: '2026-07-22'
