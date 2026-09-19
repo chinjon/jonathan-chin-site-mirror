@@ -24,6 +24,14 @@ const read = defineCollection({
   schema: z.object({
     title: z.string(),
     authorFirst: z.string(),
+    authorLast: z.string(),
+    rating: z.string(),
+    isbn: z.string(),
+    published: z.string(),
+    read: z.string(),
+    start: z.string(),
+    pages: z.string(),
+    genre: z.array(z.string()),
   }),
 });
 
