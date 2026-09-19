@@ -7,7 +7,8 @@ isbn: '01477316485'
 published: '2019'
 start: '2026-07-08'
 read: '2026-07-15'
-pages: '207'
+pages: '207',
+genre: ['non-fiction']
 ---
 
 ---
