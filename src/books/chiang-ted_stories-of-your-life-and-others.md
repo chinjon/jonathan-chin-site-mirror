@@ -12,7 +12,3 @@ genre: ['fiction', 'science fiction', 'short stories']
 ---
 
 ---
-
-i am _stoner_-pilled.
-
----
