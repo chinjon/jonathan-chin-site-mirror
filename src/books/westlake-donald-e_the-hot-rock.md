@@ -8,6 +8,7 @@ published: '1997'
 read: '2026-09-07'
 start: '2026-09-04'
 pages: '287'
+genre: ['fiction', 'crime']
 ---
 
 ---
