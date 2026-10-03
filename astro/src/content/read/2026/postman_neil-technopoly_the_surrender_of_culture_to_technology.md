@@ -7,6 +7,7 @@ isbn: '0679745408'
 published: '1993'
 pages: '240'
 read: '2026-03-29'
+genre: ['non-fiction']
 ---
 
 ---

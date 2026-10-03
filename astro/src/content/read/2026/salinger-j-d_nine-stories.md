@@ -7,6 +7,7 @@ isbn: '0316767727'
 published: '1991'
 pages: '320'
 read: '2026-04-29'
+genre: ['fiction', 'short-stories']
 ---
 
 ---

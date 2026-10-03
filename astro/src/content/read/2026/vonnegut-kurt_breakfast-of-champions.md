@@ -8,6 +8,7 @@ published: '1973'
 pages: '302'
 read: '2026-08-03'
 start: '2026-07-27'
+genre: ['fiction']
 ---
 
 ---

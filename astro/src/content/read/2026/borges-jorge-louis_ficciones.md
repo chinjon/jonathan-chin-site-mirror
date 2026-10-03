@@ -7,6 +7,7 @@ isbn: ' 0802130305'
 published: '1962'
 read: '2026-08-01'
 pages: '174'
+genre: ['fiction', 'science fiction', 'short stories']
 ---
 
 ---

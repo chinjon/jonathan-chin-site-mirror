@@ -8,6 +8,7 @@ published: '2024'
 start: '2026-07-06'
 read: '2026-07-22'
 pages: '352'
+genre: ['fiction']
 ---
 
 ---

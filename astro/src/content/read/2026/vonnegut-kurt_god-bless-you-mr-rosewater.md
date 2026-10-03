@@ -7,6 +7,7 @@ isbn: '0385333471'
 published: '1965'
 pages: '288'
 read: '2026-04-07'
+genre: ['fiction']
 ---
 
 ---

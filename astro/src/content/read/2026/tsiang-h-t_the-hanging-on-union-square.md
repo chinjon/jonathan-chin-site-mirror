@@ -8,6 +8,7 @@ published: '2013'
 read: '2026-08-13'
 start: '2026-08-11'
 pages: '211'
+genre: ['fiction']
 ---
 
 ---

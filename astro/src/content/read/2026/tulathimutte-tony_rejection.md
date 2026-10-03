@@ -7,6 +7,7 @@ isbn: '0063337878'
 published: '2024'
 read: '2026-04-28'
 pages: '258'
+genre: ['fiction']
 ---
 
 ---

@@ -7,6 +7,7 @@ isbn: '0140077022'
 published: '1985'
 read: '2026-04-19'
 pages: '352'
+genre: ['fiction']
 ---
 
 ---

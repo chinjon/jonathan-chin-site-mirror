@@ -8,6 +8,7 @@ published: '1962'
 start: '2026-07-22'
 read: '2026-07-24'
 pages: '192'
+genre: ['fiction']
 ---
 
 ---

@@ -7,6 +7,7 @@ isbn: '0802133908'
 published: '1955'
 read: '2026-07-12'
 pages: '129'
+genre: ['fiction']
 ---
 
 ---

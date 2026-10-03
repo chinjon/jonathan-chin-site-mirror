@@ -7,6 +7,7 @@ isbn: '0679723056'
 published: '1989'
 read: '2026-05-11'
 pages: '176'
+genre: ['fiction', 'science fiction', 'short stories']
 ---
 
 ---
