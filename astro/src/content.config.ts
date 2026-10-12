@@ -19,8 +19,8 @@ const blog = defineCollection({
   }),
 });
 
-const read = defineCollection({
-  loader: glob({ base: './src/content/read', pattern: '**/*.{md,mdx}' }),
+const book = defineCollection({
+  loader: glob({ base: './src/content/book', pattern: '**/*.{md,mdx}' }),
   schema: z.object({
     title: z.string(),
     authorFirst: z.string(),
@@ -29,11 +29,11 @@ const read = defineCollection({
     isbn: z.string(),
     published: z.string(),
     read: z.string(),
-    start: z.string(),
+    start: z.string().optional(),
     pages: z.string(),
     genre: z.array(z.string()),
   }),
 });
 
 // 5. Export a single `collections` object to register your collection(s)
-export const collections = { blog, read };
+export const collections = { blog, book };

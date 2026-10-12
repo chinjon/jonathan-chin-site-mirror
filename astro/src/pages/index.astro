@@ -4,7 +4,7 @@ import Layout from '../layouts/Layout.astro';
 
 import {getCollection} from 'astro:content';
 const posts = await getCollection('blog')
-const read = await getCollection('read')
+const books = await getCollection('book')
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
@@ -13,7 +13,7 @@ const read = await getCollection('read')
 	<h1>jonathan chin</h1>
 	  {posts.map(post => (
     <li><a href={`/blog/${post.id}`}>{post.data.title}</a></li>
-  ))}{read.map(book => (
-    <li><a href={`/blog/${book.id}`}>{book.data.title}</a></li>
+  ))}{books.map(book => (
+    <li><a href={`/book/${book.id}`}>{book.data.title}</a></li>
   ))}
 </Layout>
