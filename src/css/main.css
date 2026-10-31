@@ -4,10 +4,9 @@ html {
 
 body {
   background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
 }
 
 ul li {
@@ -34,7 +33,10 @@ ul li {
 }
 
 main {
-  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+
 }
 
 #main-content {
@@ -92,6 +94,7 @@ footer {
   background-color: #ffffff;
   border-top: 0.5px solid #000000;
   padding: 1px 0;
+  margin-top: auto;
 }
 
 .site-footer__inner .webring {
@@ -118,13 +121,22 @@ footer .site-footer__inner {
 
 .item {
   width: 32%;
-  margin-bottom: 2%; /* (100-32*3)/2 */
+  margin-bottom: 2%;
+  /* (100-32*3)/2 */
 }
 
 /* Re-order items into rows */
-.item:nth-child(3n+1) { order: 1; }
-.item:nth-child(3n+2) { order: 2; }
-.item:nth-child(3n)   { order: 3; }
+.item:nth-child(3n+1) {
+  order: 1;
+}
+
+.item:nth-child(3n+2) {
+  order: 2;
+}
+
+.item:nth-child(3n) {
+  order: 3;
+}
 
 /* Force new columns */
 .container::before,
@@ -181,5 +193,12 @@ footer .site-footer__inner {
     font-size: 10px;
     margin: auto;
     width: auto;
+  }
+
+  .container {
+    display: flex;
+    flex-flow: column;
+    align-content: space-between;
+    height: 100%;
   }
 }

@@ -19,11 +19,15 @@
 	<link rel="stylesheet" href="/css/main.css">
 	</link>
 </head>
-{% include "partials/site-head.html" %}
+
 
 <body>
-	<main tabindex="-1" id="main-content">{% block content %}{% endblock %}</main>
+	{% include "partials/site-head.html" %}
+	<main tabindex="-1" id="main-content">{% block content %}{% endblock %}
+
+	</main>
+	{% include "partials/site-footer.html" %}
 </body>
-{% include "partials/site-footer.html" %}
+
 
 </html>
