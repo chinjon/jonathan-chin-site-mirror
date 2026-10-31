@@ -9,6 +9,8 @@ contact at jonathankchin [at] gmail [dot] com
 
 <img class="blog-image u-photo" src="/img/profile.jpg" alt="profile photo">
 
+list of digital projects i've worked on or maintain can be [viewed here](/projects).
+
 ---
 
 ### colophon
