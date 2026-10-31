@@ -18,6 +18,17 @@ const embedEverythingConfig = {
 export default function (eleventyConfig) {
   const isProduction = process.env.NODE_ENV === 'production';
 
+
+   const isLocal =
+    ["serve", "watch"].includes(process.env.ELEVENTY_RUN_MODE);
+
+  eleventyConfig.addGlobalData(
+    "imageBaseUrl",
+    isLocal
+      ? "pub-351ea3e3d9964891b6635b14dbc55933.r2.dev" // replace with your bucket's dev URL
+      : "https://imgs.jonathanchin.xyz"
+  );
+
   if (isProduction) {
     eleventyConfig.addTransform('htmlmin', function (content) {
       if ((this.page.outputPath || '').endsWith('.html')) {
@@ -39,7 +50,7 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({ "./src/img/favicon/": "/" });
 
-  eleventyConfig.addPlugin(eleventyImageTransformPlugin);
+  // eleventyConfig.addPlugin(eleventyImageTransformPlugin);
   eleventyConfig.addPlugin(embedEverything, embedEverythingConfig);
 
   // Returns a collection of blog posts in reverse date order
