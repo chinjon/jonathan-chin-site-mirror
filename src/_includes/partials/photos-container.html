@@ -1,0 +1,5 @@
+<div class="container">
+  {% for item in photos.items %}
+    <img class="blog-image item"  src="https://{{imageBaseUrl}}/{{item.url}}" alt="{{item.text}}"/>
+  {% endfor %}
+</div>
