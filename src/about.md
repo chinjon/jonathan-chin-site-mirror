@@ -5,7 +5,7 @@ layout: 'layouts/about.html'
 permalink: '/about/index.html'
 ---
 
-contact at jonathankchin [at] gmail [dot] com 
+contact at relayme29 [at] duck [dot] com 
 
 list of digital projects i've worked on or maintain can be [viewed here](/projects).
 
