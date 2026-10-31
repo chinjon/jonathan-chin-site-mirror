@@ -18,15 +18,11 @@ const embedEverythingConfig = {
 export default function (eleventyConfig) {
   const isProduction = process.env.NODE_ENV === 'production';
 
-
-   const isLocal =
-    ["serve", "watch"].includes(process.env.ELEVENTY_RUN_MODE);
-
   eleventyConfig.addGlobalData(
     "imageBaseUrl",
-    isLocal
+    !isProduction
       ? "pub-351ea3e3d9964891b6635b14dbc55933.r2.dev" // replace with your bucket's dev URL
-      : "https://imgs.jonathanchin.xyz"
+      : "imgs.jonathanchin.xyz"
   );
 
   if (isProduction) {
