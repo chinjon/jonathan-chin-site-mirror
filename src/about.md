@@ -22,4 +22,5 @@ this site was built using (<a href="https://codeberg.org/jonathan_chin/jonathan-
 - <a href="https://www.11ty.dev/" target="_blank" rel="noopener noreferrer">11ty</a>
 - <a href="https://vscodium.com/" target="_blank" rel="noopener noreferrer">vscodium</a>
 - <a href="https://pages.cloudflare.com/" target="_blank" rel="noopener noreferrer">cloudflare pages</a> 
+- <a href="https://squoosh.app/" target="_blank" rel="noopener noreferrer">squoosh</a> 
 
