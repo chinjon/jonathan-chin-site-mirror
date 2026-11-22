@@ -3,11 +3,20 @@ title: 'jonathan chin'
 subtitle: 'about'
 layout: 'layouts/about.html'
 permalink: '/about/index.html'
----
+--- 
+
+<img class="blog-image"  src="https://imgs.jonathanchin.xyz/assets/portrait-4x5.jpg" alt="portrait black and white"/>
 
 contact at relayme29 [at] duck [dot] com 
 
-list of digital projects i've worked on or maintain can be [viewed here](/projects).
+list of digital projects i've worked on or maintain can be [viewed here](/projects). 
+
+portrait made by:
+
+- <a href="https://www.instagram.com/tibi.analog/" target="_blank" rel="noreferrer noopener">tibi</q> 
+- <a href="https://www.instagram.com/markcaintsleep/" target="_blank" rel="noreferrer noopener">mark portillo</a>
+- <a href="https://www.instagram.com/ukiyo.tookthese/" target="_blank" rel="noreferrer noopener">>clay lewis</a> 
+- <a href="https://www.instagram.com/dbatemaniv/" target="_blank" rel="noreferrer noopener">>dupuy bateman</a> 
 
 ---
 
