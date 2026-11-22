@@ -42,7 +42,7 @@ an obvious place, but also surprisingly its lesser known of the digital resource
 
 ### slim down your reading format
 
-<img class="blog-image" src="https://imgs.jonathanchin.xyz/assets/e-reader-scale.jpg alt="screen shot of reading stats from book tracker app" />
+<img class="blog-image" src="https://imgs.jonathanchin.xyz/assets/e-reader-scale.jpg" alt="photo of xteink x4 and a field notes book" />
 
 i personally don’t use e-readers that much, i did buy a small one recently and it’s helped. the xteink x4 is a great little e-reader that lets you install custom firmware. a huge community has grown around it and theres plenty of resources for custom firmware. you can also get some nice formatted public domain books online. given the viral nature of the xteink e-readers, a few other e-ink companies are releasing smaller e-reader devices as well.
 
