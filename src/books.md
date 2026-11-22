@@ -10,7 +10,7 @@ paginationNextText: 'Older posts'
 paginationAnchor: '#reading-list'
 ---
 
-<img class="blog-image"  src="https://file.garden/akFLbgUm9G3LrWhE/Honor-Columbo-3.jpg" alt="detective columbo looking at a book sideways"/>
+<img class="blog-image"  src="https://imgs.jonathanchin.xyz/assets/Honor-Columbo-3.jpg" alt="detective columbo looking at a book sideways"/>
 
 books i have read as of 03/2026. you can see what book(s) <a href="https://app.thestorygraph.com/profile/chin_jon" target="_blank" ref="noopener noreferrer">i am currently and want to read on storygraph</a>
 

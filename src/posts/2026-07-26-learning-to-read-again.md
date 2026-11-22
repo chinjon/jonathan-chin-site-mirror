@@ -7,7 +7,7 @@ published: true
 tags: ['reading']
 ---
 
-<img class="blog-image" src="https://file.garden/akFLbgUm9G3LrWhE/columbo_art_book.jpg" alt="columbo reading a book sideways" width="500">
+<img class="blog-image" src="https://imgs.jonathanchin.xyz/assets/columbo_art_book.jpg" alt="columbo reading a book sideways" width="500">
 
 ---
 a year ago i landed on a book review video from the new york times. i wasn’t particularly interested or even seeking out this video but, as i was watching the video, a strange fear crept along the back of my mind. i conceded immediately i would not be able to read this book from front to back. 
@@ -42,7 +42,7 @@ an obvious place, but also surprisingly its lesser known of the digital resource
 
 ### slim down your reading format
 
-<img class="blog-image" src="https://file.garden/akFLbgUm9G3LrWhE/IMG_9201.jpeg" alt="screen shot of reading stats from book tracker app" />
+<img class="blog-image" src="https://imgs.jonathanchin.xyz/assets/e-reader-scale.jpg alt="screen shot of reading stats from book tracker app" />
 
 i personally don’t use e-readers that much, i did buy a small one recently and it’s helped. the xteink x4 is a great little e-reader that lets you install custom firmware. a huge community has grown around it and theres plenty of resources for custom firmware. you can also get some nice formatted public domain books online. given the viral nature of the xteink e-readers, a few other e-ink companies are releasing smaller e-reader devices as well.
 
@@ -55,6 +55,6 @@ reading is very much like exercise, you need to build up strength, form and stam
 
 ## my progress
 
-<img class="blog-image" src="https://file.garden/akFLbgUm9G3LrWhE/book-tracker" alt="screen shot of reading stats from book tracker app" style="max-width: 200px;" />
+<img class="blog-image" src="https://imgs.jonathanchin.xyz/assets/book-tracker" alt="screen shot of reading stats from book tracker app" style="max-width: 200px;" />
 
 i initially started this drive to read in april of 2026, skeptical that i could complete any book. setting a goal of 10 books for 2026, not being sure of my consistency and devotion to reading. however, i'm happy to say i've exceed that goal, as of july 2026, with 16 books completed on the year. i have also spent nearly $500 on books, and $70 on my little e-reader. one side effect is that now i have too many books, but also motivates me to keep reading.
